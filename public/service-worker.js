@@ -1,10 +1,12 @@
+//selecting files to store in cache
 const FILES_TO_CACHE = [
+    "/",
     "/index.html",
     "/db.js",
     "/style.css",
     "/index.js"
   ];
-  
+  // using data cache
   const CACHE_NAME = "static-cache-v2";
   const DATA_CACHE_NAME = "data-cache-v1";
   
